@@ -1,0 +1,31 @@
+{
+    "computer-vision": {
+        "xfopencv": {
+            "repo-url": "https://github.com/Xilinx/xfopencv",
+            "description": "Xilinx OpenCV development for HLS/SDx kernels",
+            "kernel-file-list": [
+              "include/core",
+              "include/common",
+              "include/features",
+              "include/imgproc"
+            ]
+        },
+        "2d_filter_xfopencv": {
+            "repo-url": "https://github.com/parker-xilinx/2d_filter_xfopencv",
+            "description": "Example design for streaming video processing with a convolution",
+            "kernel-file-list": [
+              "hls_video_block.cpp",
+              "hls_video_block.h",
+              "types_cv.h"
+            ]
+        }
+    },
+    "generic-accel": {
+        "hls-examples": {
+            "repo-url": "https://github.com/Xilinx/HLx_Examples",
+            "description": "Xilinx open-source HLS examples",
+            "kernel-file-list": [
+            ]
+        }
+    }
+}
