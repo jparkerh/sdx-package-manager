@@ -1,2 +1,2 @@
-modules/
-repos/
+modules/*
+repos/*
